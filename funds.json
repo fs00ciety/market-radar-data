@@ -1,0 +1,48 @@
+{
+  "updatedAt": "2026-09-04T11:48:53.688Z",
+  "timezone": "Europe/Istanbul",
+  "source": "TEFAS",
+  "dataNote": "Son açıklanan TEFAS fon fiyatlarıdır; anlık fiyat değildir.",
+  "funds": {
+    "TP2": {
+      "code": "TP2",
+      "name": "TERA PORTFÖY PARA PİYASASI (TL) FONU",
+      "date": "2026-09-04",
+      "price": 2.209513,
+      "previousPrice": 2.206948,
+      "dailyChange": 0.1162
+    },
+    "TLY": {
+      "code": "TLY",
+      "name": "TERA PORTFÖY BİRİNCİ SERBEST FON",
+      "date": "2026-09-04",
+      "price": 9440.833918,
+      "previousPrice": 9348.227793,
+      "dailyChange": 0.9906
+    },
+    "THF": {
+      "code": "THF",
+      "name": "TERA PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+      "date": "2026-09-04",
+      "price": 2.784402,
+      "previousPrice": 2.762935,
+      "dailyChange": 0.777
+    },
+    "DFI": {
+      "code": "DFI",
+      "name": "ATLAS PORTFÖY SERBEST FON",
+      "date": "2026-09-04",
+      "price": 6.141672,
+      "previousPrice": 6.112184,
+      "dailyChange": 0.4824
+    },
+    "PBR": {
+      "code": "PBR",
+      "name": "PUSULA PORTFÖY BİRİNCİ DEĞİŞKEN FON",
+      "date": "2026-09-04",
+      "price": 2.943968,
+      "previousPrice": 3.478615,
+      "dailyChange": -15.3695
+    }
+  }
+}
