@@ -1,0 +1,30 @@
+name: TEFAS Fiyat Güncelleme
+
+on:
+  schedule:
+    # Saatler UTC'dir. İstanbul UTC+3 (yaz/kış saati uygulaması yok).
+    - cron: "30 7 * * 1-5"   # 10:30 İstanbul
+    - cron: "30 11 * * 1-5"  # 14:30 İstanbul
+    - cron: "30 16 * * 1-5"  # 19:30 İstanbul
+  workflow_dispatch: {}       # Elle "Run workflow" ile de tetiklenebilir
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repoyu checkout et
+        uses: actions/checkout@v4
+
+      - name: TEFAS verisini çek
+        run: node fetch-tefas.js
+
+      - name: Değişiklik varsa commit et ve gönder
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add funds.json
+          git diff --staged --quiet || git commit -m "TEFAS fiyatları güncellendi ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+          git push
