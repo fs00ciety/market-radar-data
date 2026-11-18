@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T23:35:39.660Z",
+  "updatedAt": "2026-11-18T16:40:09.293Z",
   "timezone": "Europe/Istanbul",
   "source": "TEFAS",
   "dataNote": "Son açıklanan TEFAS fon fiyatlarıdır; anlık fiyat değildir.",
@@ -7,7 +7,7 @@
     "TP2": {
       "code": "TP2",
       "name": "TERA PORTFÖY PARA PİYASASI (TL) FONU",
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "price": 0,
       "previousPrice": 0,
       "dailyChange": null
@@ -15,7 +15,7 @@
     "TLY": {
       "code": "TLY",
       "name": "TERA PORTFÖY BİRİNCİ SERBEST FON",
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "price": 0,
       "previousPrice": 0,
       "dailyChange": null
@@ -23,7 +23,7 @@
     "THF": {
       "code": "THF",
       "name": "TERA PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "price": 0,
       "previousPrice": 0,
       "dailyChange": null
@@ -31,15 +31,15 @@
     "DFI": {
       "code": "DFI",
       "name": "ATLAS PORTFÖY SERBEST FON",
-      "date": "2026-11-17",
-      "price": 0.291939,
-      "previousPrice": 0.276489,
-      "dailyChange": 5.5879
+      "date": "2026-11-18",
+      "price": 0.316196,
+      "previousPrice": 0.291939,
+      "dailyChange": 8.3089
     },
     "PBR": {
       "code": "PBR",
       "name": "PUSULA PORTFÖY BİRİNCİ DEĞİŞKEN FON",
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "price": 0,
       "previousPrice": 0,
       "dailyChange": null
